@@ -23,8 +23,8 @@ on:
      - cron: 0 0 * * 4
   # 点击star运行
   # 删除以下行首的#号启用
-  #watch:
-  #  types: [started]
+  watch:
+    types: [started]
   workflow_dispatch:
     inputs:
       message:
